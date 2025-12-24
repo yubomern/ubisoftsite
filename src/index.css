@@ -102,3 +102,17 @@ footer {
 .dark .card {
   background: #1e293b;
 }
+
+pre {
+  background: #111;
+  color: #0f0;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 0.9rem;
+}

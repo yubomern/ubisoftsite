@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import TodoList from "./pages/TodoList";
 import ContactForm from "./pages/ContactForm";
+import Codes from "./pages/Codes";
 
 export default function App() {
   const theme = useSelector((state) => state.theme.mode);
@@ -15,6 +16,7 @@ export default function App() {
       <Home />
       <Services />
         <TodoList />
+        <Codes/>
         <ContactForm />
       <Contact />
     </div>
