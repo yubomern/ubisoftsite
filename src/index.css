@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- GLOBAL ---------- */
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.light {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.dark {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2563eb;
+  color: white;
+}
+
+nav img {
+  height: 42px;
+  margin-right: 12px;
+}
+
+nav h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+  margin-left: auto;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #1e293b;
+  color: white;
+  border: none;
+}
+
+/* ---------- SERVICES ---------- */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.dark .card {
+  background: #1e293b;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #020617;
+  color: white;
+}
+
+
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.dark .card {
+  background: #1e293b;
+}
